@@ -1,0 +1,10 @@
+export const services=[
+{id:'notes',title:'Study Notes',desc:'Clean, exam-focused course notes and revision packs.',price:1500,icon:'BookOpen',tag:'FREEMIUM',premium:true},
+{id:'pastq',title:'Past Questions',desc:'Curated past questions with topic breakdowns and revision guides.',price:1000,icon:'Files',tag:'POPULAR',premium:false},
+{id:'assignments',title:'Assignment Support',desc:'Research guidance, formatting, referencing and review support.',price:3500,icon:'PenLine',tag:'ACADEMIC',premium:false},
+{id:'projects',title:'Project Support',desc:'Proposal, research structure, data guidance and presentation support.',price:15000,icon:'Presentation',tag:'FINAL YEAR',premium:true},
+{id:'textbooks',title:'Textbooks',desc:'Legitimate softcopy resources and printed textbooks where available.',price:2500,icon:'Library',tag:'SUPPLY',premium:false},
+{id:'coaching',title:'1:1 Study Coaching',desc:'Personal study plans, deadline planning and accountability.',price:5000,icon:'Sparkles',tag:'PREMIUM',premium:true}
+];
+export const plans=[{name:'Free',price:0,desc:'Get started without a subscription.',features:['Selected free study resources','Community updates','Basic past-question samples','Student offers'],cta:'Start Free'},{name:'CAM Plus',price:3500,period:'/month',desc:'For students who want the full support layer.',features:['Premium notes & revision packs','Expanded past-question library','Member-only discounts','Priority support','Monthly study planner'],cta:'Go Plus',featured:true},{name:'CAM Pro',price:8500,period:'/semester',desc:'A high-touch academic support membership.',features:['Everything in Plus','Project support credits','1:1 study planning','Priority project queue','Premium resource drops'],cta:'Go Pro'}];
+export const resources=[{title:'How to turn lecture slides into a revision plan',type:'Guide',time:'6 min read',premium:false},{title:'The 7-day exam sprint template',type:'Template',time:'PDF',premium:true},{title:'Past-question pattern tracker',type:'Worksheet',time:'PDF',premium:true}];
